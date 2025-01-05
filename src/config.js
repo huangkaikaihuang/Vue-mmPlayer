@@ -39,9 +39,8 @@ export const MMPLAYER_CONFIG = {
   /* 默认音量 */
   VOLUME:0.8,
   /* 默认背景 */
-  /*BACKGROUND: BACKGROUNDS[Math.floor(Math.random() * BACKGROUNDS.length)], */
-  /* 默认背景 */
-  BACKGROUND: rgba(0, 0, 0, 0),  // 设置为 null 代表没有背景图，也可以尝试 rgba(0, 0, 0, 0) 作为透明背景
+  BACKGROUND: BACKGROUNDS[Math.floor(Math.random() * BACKGROUNDS.length)], 
+
 }
 
 /* 默认分页数量 */
