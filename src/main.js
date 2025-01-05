@@ -39,13 +39,13 @@ router.beforeEach((to, from, next) => {
     next()
   } else {
     document.title =
-      (to.meta.title && `${to.meta.title} - mmPlayer在线音乐播放器`) || 'mmPlayer在线音乐播放器'
+      (to.meta.title && `${to.meta.title} - 欢迎来到黄地凯歌频道`) || '欢迎来到黄地凯歌频道'
     next()
   }
 })
 
 // 版权信息
-window.mmPlayer = window.mmplayer = `欢迎使用 mmPlayer!
+window.mmPlayer = window.mmplayer = `欢迎来到黄地凯歌频道!
 当前版本为：V${VERSION}
 作者：茂茂
 Github：https://github.com/maomao1996/Vue-mmPlayer
