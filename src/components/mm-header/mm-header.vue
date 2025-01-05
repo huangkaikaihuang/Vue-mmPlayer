@@ -3,6 +3,10 @@
   <header class="mm-header">
     <h1 class="header">
 
+       
+      <a href="https://github.com/maomao1996/Vue-mmPlayer" target="_blank">
+         在线
+      </a>
       <img
         v-if="visitorBadge"
         :src="visitorBadge"
