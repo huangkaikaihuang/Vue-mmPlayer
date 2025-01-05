@@ -11,7 +11,7 @@
         <dd>专辑名：{{ currentMusic.album }}</dd>
       </template>
       <template v-else>
-        <dd>mmPlayer在线音乐播放器</dd>
+        <dd>lyric</dd>
         <dd>
           <a class="hover" target="_blank" href="https://github.com/maomao1996">
             <mm-icon type="github" :size="14" />
