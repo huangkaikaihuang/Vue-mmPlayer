@@ -2,9 +2,7 @@
   <!--头部-->
   <header class="mm-header">
     <h1 class="header">
-      <a href="" target="_blank">
-        hello
-      </a>
+
       <img
         v-if="visitorBadge"
         :src="visitorBadge"
