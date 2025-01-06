@@ -2,8 +2,8 @@
   <!--头部-->
   <header class="mm-header">
     <h1 class="header">
-      <a href="https://www.baidu.com" target="_blank">
-        欢迎来到黄地凯歌频道
+      <a href="https://github.com/maomao1996/Vue-mmPlayer" target="_blank">
+        mmPlayer 在线音乐播放器
       </a>
       <img
         v-if="visitorBadge"
