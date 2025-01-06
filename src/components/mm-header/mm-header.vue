@@ -2,9 +2,7 @@
   <!--头部-->
   <header class="mm-header">
     <h1 class="header">
-      <a href="https://github.com/maomao1996/Vue-mmPlayer" target="_blank">
-       欢迎来到黄地凯歌频道
-      </a>
+      <a href="https://github.com/maomao1996/Vue-mmPlayer" target="_blank">欢迎来到黄地凯歌频道</a>
       <img
         v-if="visitorBadge"
         :src="visitorBadge"
