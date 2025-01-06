@@ -2,8 +2,8 @@
   <!--头部-->
   <header class="mm-header">
     <h1 class="header">
-      <a href="https://github.com/maomao1996/Vue-mmPlayer" target="_blank">
-        mmPlayer 在线音乐播放器
+      <a href="https://www.baidu.com" target="_blank">
+        欢迎来到黄地凯歌频道
       </a>
       <img
         v-if="visitorBadge"
@@ -21,7 +21,7 @@
         </router-link>
         <dd class="user-btn" @click="openDialog(2)">退出</dd>
       </template>
-      <dd v-else class="user-btn" @click="openDialog(0)">登录</dd>
+      <dd v-else class="user-btn" @click="openDialog(0)">求关注</dd>
     </dl>
     <!--登录-->
     <mm-dialog
