@@ -37,10 +37,9 @@ export const MMPLAYER_CONFIG = {
   /* 默认播放模式 */
   PLAY_MODE: PLAY_MODE.LIST_LOOP,
   /* 默认音量 */
-  VOLUME:0.8,
+  VOLUME: 0.8,
   /* 默认背景 */
-  BACKGROUND: BACKGROUNDS[Math.floor(Math.random() * BACKGROUNDS.length)], 
-
+  BACKGROUND: BACKGROUNDS[Math.floor(Math.random() * BACKGROUNDS.length)],
 }
 
 /* 默认分页数量 */
