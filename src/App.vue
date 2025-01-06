@@ -46,7 +46,7 @@ export default {
     let titleTime
     document.addEventListener('visibilitychange', function () {
       if (document.hidden) {
-        document.title = '死鬼去哪里了！'
+        document.title = '死鬼去哪里了sdfsdfsd你说的飞机离开你说你是谁！'
         clearTimeout(titleTime)
       } else {
         document.title = '(つェ⊂)咦!又好了!'
