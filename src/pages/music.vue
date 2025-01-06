@@ -62,7 +62,7 @@
     </div>
 
     <!--遮罩-->
-    <div class="mmPlayer-bg" :style="{ backgroundImage: picUrl }"></div>
+     <!--<div class="mmPlayer-bg" :style="{ backgroundImage: picUrl }"></div>-->
     <div class="mmPlayer-mask"></div>
   </div>
 </template>
