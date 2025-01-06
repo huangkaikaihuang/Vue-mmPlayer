@@ -4,7 +4,7 @@
     <mm-loading v-model="mmLoadShow" />
     <dl v-if="hotComments.length > 0" class="comment-list">
       <!--精彩评论-->
-      <dt class="comment-title">精彩评论</dt>
+      <dt class="comment-title">评</dt>
       <dd v-for="item in hotComments" :key="item.commentId" class="comment-item">
         <a target="_blank" :href="`https://music.163.com/#/user/home?id=${item.user.userId}`">
           <img v-lazy="`${item.user.avatarUrl}?param=50y50`" class="comment-item-pic" />
